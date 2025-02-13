@@ -10,6 +10,7 @@ SELECT * FROM walmart;
 SELECT COUNT(*) FROM walmart;
 
 -- Count payment methods and number of transactions by payment method
+
 SELECT 
     payment_method,
     COUNT(*) AS no_payments
